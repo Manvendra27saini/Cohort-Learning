@@ -13,7 +13,7 @@ program.command('count')
         console.log(err);
       } else {
         const lines = data.split('\n').length;
-        console.log(`There are ${lines} lines in ${file}`);
+        console.log(`There ar ${lines} lines in ${file}`);
       }
     });
   });
